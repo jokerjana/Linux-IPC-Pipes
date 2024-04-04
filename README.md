@@ -102,6 +102,13 @@ int main(){
 int res = mkfifo("/tmp/my_fifo", 0777);
 if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
+```
+## OUTPUT
+![image](https://github.com/jokerjana/Linux-IPC-Pipes/assets/147173630/b710206b-bdb4-4dd6-8bf9-fa1c1b292cb9)
+
+# RESULT:
+The program is executed successfully.
+
 
 
 
